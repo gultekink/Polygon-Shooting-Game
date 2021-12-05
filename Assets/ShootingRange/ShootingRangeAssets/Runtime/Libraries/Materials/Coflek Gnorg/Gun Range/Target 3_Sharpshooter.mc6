@@ -1,0 +1,633 @@
+{
+version
+	{
+	number 6
+	}
+mtlCollection
+	{
+	material target3
+		{
+		KdColor 1 1 1 0.75
+		KaColor 0 0 0 0
+		KsColor 0 0 0 1
+		TextureColor 1 1 1 1
+		NsExponent 0.01
+		tMin 0
+		tMax 1
+		tExpo 0
+		bumpStrength 1
+		ksIgnoreTexture 0
+		reflectThruLights 0
+		reflectThruKd 0
+		textureMap ":Runtime:Textures:Coflek Gnorg:Gun Range:cgcr_target2_diff.jpg"
+		0 0
+		bumpMap NO_MAP
+		reflectionMap NO_MAP
+		transparencyMap ":Runtime:Textures:Coflek Gnorg:Gun Range:cgcr_target2_opac.jpg"
+		0 0
+		ReflectionColor 1 1 1 1
+		reflectionStrength 0
+		shaderTree
+			{
+			node "poser" "PoserSurface"
+				{
+				name "PoserSurface"
+				pos 10 10
+				showPreview 1
+				nodeInput "Diffuse_Color"
+					{
+					name "Diffuse_Color"
+					value 1 1 1
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node "Image_Map_2"
+					file NO_MAP
+					}
+				nodeInput "Diffuse_Value"
+					{
+					name "Diffuse_Value"
+					value 0.75 0 10
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "Highlight_Color"
+					{
+					name "Specular_Color"
+					value 0 0 0
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "Highlight_Value"
+					{
+					name "Specular_Value"
+					value 1 0 10
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "Roughness"
+					{
+					name "Highlight_Size"
+					value 0 0 10
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "Ambient_Color"
+					{
+					name "Ambient_Color"
+					value 0 0 0
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "Ambient_Value"
+					{
+					name "Ambient_Value"
+					value 0 0 10
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "Transparency_Max"
+					{
+					name "Transparency"
+					value 1 0 1
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node "Image_Map_3"
+					file NO_MAP
+					}
+				nodeInput "Transparency_Min"
+					{
+					name "Transparency_Edge"
+					value 0 0 1
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "Transparency_Falloff"
+					{
+					name "Transparency_Falloff"
+					value 0 0 100
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "Translucence_Color"
+					{
+					name "Translucence_Color"
+					value 0 0 0
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "Translucence_Value"
+					{
+					name "Translucence_Value"
+					value 0 0 10
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "Reflection_Color"
+					{
+					name "Reflection_Color"
+					value 1 1 1
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "Reflection_Value"
+					{
+					name "Reflection_Value"
+					value 1 0 10
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "Refraction_Color"
+					{
+					name "Refraction_Color"
+					value 1 1 1
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "Refraction_Value"
+					{
+					name "Refraction_Value"
+					value 1 0 10
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "Bump"
+					{
+					name "Bump"
+					value 1 -10 10
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "Displacement"
+					{
+					name "Displacement"
+					value 1 -10 10
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "AlternateDiffuse"
+					{
+					name "Alternate_Diffuse"
+					value 1 1 1
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "AlternateSpecular"
+					{
+					name "Alternate_Specular"
+					value 1 1 1
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "ReflectionLiteMult"
+					{
+					name "Reflection_Lite_Mult"
+					value 0 0 1
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "ReflectionKdMult"
+					{
+					name "Reflection_Kd_Mult"
+					value 0 0 1
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "Gradient_Bump"
+					{
+					name "Gradient_Bump"
+					value 1 -1 1
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "ShadowCatchOnly"
+					{
+					name "Shadow_Catch_Only"
+					value 0 0 1
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "ToonID"
+					{
+					name "ToonID"
+					value 148 0 32768
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "Normals_Forward"
+					{
+					name "Normals_Forward"
+					value 0 0 1
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "Gradient_Mode"
+					{
+					name "Gradient_Mode"
+					value 1 0 0
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "Custom_output_1"
+					{
+					name "Custom_output_1"
+					value 1 1 1
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "Custom_output_2"
+					{
+					name "Custom_output_2"
+					value 1 1 1
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "Custom_output_3"
+					{
+					name "Custom_output_3"
+					value 1 1 1
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				}
+			node "image_map" "Image_Map_2"
+				{
+				name "Image_Map_2"
+				pos 265 40
+				inputsCollapsed 1
+				nodeInput "Image_Source"
+					{
+					name "Image_Source"
+					value 1 1 1
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file ":Runtime:Textures:Coflek Gnorg:Gun Range:cgcr_target2_diff.jpg"
+					}
+				nodeInput "Auto_Fit"
+					{
+					name "Auto_Fit"
+					value 0 0 0
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "U_Scale"
+					{
+					name "U_Scale"
+					value 1 -1 1
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "V_Scale"
+					{
+					name "V_Scale"
+					value 1 -1 1
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "U_Offset"
+					{
+					name "U_Offset"
+					value 0 0 1
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "V_Offset"
+					{
+					name "V_Offset"
+					value 0 0 1
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "Texture_Coords"
+					{
+					name "Texture_Coords"
+					value 1 0 0
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "Image_Mapped"
+					{
+					name "Image_Mapped"
+					value 4 0 0
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "Background"
+					{
+					name "Background"
+					value 1 1 1
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "Global_Coordinates"
+					{
+					name "Global_Coordinates"
+					value 0 0 1
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "Mirror_U"
+					{
+					name "Mirror_U"
+					value 0 0 0
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "Mirror_V"
+					{
+					name "Mirror_V"
+					value 0 0 0
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "Texture_Strength"
+					{
+					name "Texture_Strength"
+					value 1 0 1
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "Filtering"
+					{
+					name "Filtering"
+					value 3 0 0
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				}
+			node "image_map" "Image_Map_3"
+				{
+				name "Image_Map_2_3"
+				pos 245 195
+				nodeInput "Image_Source"
+					{
+					name "Image_Source"
+					value 2 2 2
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file ":Runtime:Textures:Coflek Gnorg:Gun Range:cgcr_target2_opac.jpg"
+					}
+				nodeInput "Auto_Fit"
+					{
+					name "Auto_Fit"
+					value 0 0 0
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "U_Scale"
+					{
+					name "U_Scale"
+					value 1 -1 1
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "V_Scale"
+					{
+					name "V_Scale"
+					value 1 -1 1
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "U_Offset"
+					{
+					name "U_Offset"
+					value 0 0 1
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "V_Offset"
+					{
+					name "V_Offset"
+					value 0 0 1
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "Texture_Coords"
+					{
+					name "Texture_Coords"
+					value 1 0 0
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "Image_Mapped"
+					{
+					name "Image_Mapped"
+					value 4 0 0
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "Background"
+					{
+					name "Background"
+					value 1 1 1
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "Global_Coordinates"
+					{
+					name "Global_Coordinates"
+					value 0 0 1
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "Mirror_U"
+					{
+					name "Mirror_U"
+					value 0 0 0
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "Mirror_V"
+					{
+					name "Mirror_V"
+					value 0 0 0
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "Texture_Strength"
+					{
+					name "Texture_Strength"
+					value 1 0 1
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "Filtering"
+					{
+					name "Filtering"
+					value 3 0 0
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				gamma 1.000000
+				}
+			}
+		}
+	}
+}
